@@ -1,0 +1,30 @@
+.login{
+    width: 400px;
+    margin: 100px  auto;
+    border: 2px solid rgb(113, 112, 112);
+    box-shadow: 0px 0px 5px black;
+    padding: 70px 50px;
+}
+.login h2{
+    text-align: center;
+    font-size: 26px;
+}
+.login input{
+    width: 100%;
+    outline: none;
+    padding: 5px;
+}
+.login td{
+    padding: 14px 0px;
+    width: 100% ;
+}
+.login button{
+    padding: 6px 31px;
+    border: none;
+    background-color: rgb(55, 96, 230);
+    color: #fff;
+    cursor: pointer;
+}
+.login .back{
+    background-color: rgb(66, 65, 64);
+}

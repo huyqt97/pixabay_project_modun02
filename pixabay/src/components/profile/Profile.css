@@ -1,0 +1,99 @@
+.header_profile{
+    background-color: #4b535e;
+    color: #fff;
+    position: relative;
+    text-align: center;
+    padding: 20px;
+    cursor: pointer;
+}
+.header_profile img{
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 40px;
+}
+.header_profile span{
+    padding: 0px 10px;
+}
+.header_profile button{
+    background-color: #008ddf;
+    color: #fff;
+    border: none;
+    padding: 5px 15px;
+    border-radius: 30px;
+}
+.header_profile .update_profile{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    opacity: 0;
+    transition: 0.3s ease;
+}
+.update_profile{
+    display: flex;
+    gap: 10px;
+}
+.update_profile .btn_logout{
+    background-color: red !important;
+}
+.header_profile:hover .update_profile{
+    opacity: 1;
+}
+.header_profile .mess{
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+.moments{
+    margin: 30px 0px;
+    padding: 20px 100px;
+    column-count: 4;
+    column-gap: 10px;
+    cursor: pointer;
+    background-color: aliceblue;
+    min-height: 700px   ;
+}
+.moments .cards{
+    position: relative;
+    width: 325px;
+    break-inside: avoid;
+    margin-bottom: 5px;
+}
+.moments .cards img{
+    width: 100%;
+    border-radius: 10px;
+}
+.moments .hiden{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(82, 80, 80, 0.547);
+    opacity: 0;
+    transition: opacity 0.2s ease;
+    color: rgb(246, 246, 246);
+    font-size: 20px;
+}
+.moments .hiden .icon{
+    position: absolute;
+    left: 20px;
+    top: 15px;
+}
+.moments .hiden button{
+    border: none !important;
+    background-color: transparent;
+    color: rgb(246, 246, 246);
+    font-size: 20px;
+    padding-right: 15px;
+}
+.moments .hiden p {
+    position: absolute;
+    bottom: 10px;
+    left: 20px;
+    margin: 0 !important;
+}
+.moments .cards:hover .hiden{
+    opacity: 1;
+}

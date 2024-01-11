@@ -1,0 +1,13 @@
+button,i{
+    cursor: pointer;
+}
+.bottom{
+    background-color: rgb(247, 245, 244);
+    padding: 30px 50px;
+    text-align: center;
+    color: rgb(157, 156, 156);
+}
+a{
+    text-decoration: none !important;
+    color: black !important;
+}

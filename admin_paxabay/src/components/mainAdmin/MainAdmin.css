@@ -1,0 +1,54 @@
+.nav_admin{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(55, 55, 128, 0.911);
+    color: #fff;
+    padding: 20px 30px;
+}
+.nav_admin .action{
+    position: relative;
+}
+.nav_admin button{
+    background-color: rgb(33, 33, 142);
+    box-shadow: 0px 0px 3px black;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+.nav_admin .nav_hiden{
+    font-weight: 500;
+    position: absolute;
+    right: 0px;
+    top: 14px;
+    background-color: rgba(55, 55, 128, 0.911);
+    color: rgb(255, 255, 255);
+    width: 200px;
+    list-style: none;
+    padding: 20px 5px;
+    display: none;
+}
+.nav_admin .nav_show{
+    font-weight: 500;
+    position: absolute;
+    right: 0px;
+    top: 30px;
+    background-color: rgba(55, 55, 128, 0.911) !important;
+    color: rgb(255, 255, 255) !important;
+    width: 200px;
+    list-style: none;
+    padding: 20px 5px;
+    display: block;
+}
+.nav_admin a{
+    text-decoration: none;
+    color: #fff;
+} 
+.nav_show li{
+    border-bottom: 2px solid #FFF;
+    padding: 10px;
+    cursor: pointer;
+}
+.nav_show li:hover{
+    background-color: rgba(76, 76, 166, 0.901);
+}

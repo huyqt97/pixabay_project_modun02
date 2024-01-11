@@ -1,0 +1,88 @@
+.createImage{
+    display: flex;
+    margin: 20px 0px;
+}
+.createImage .left{
+    padding: 20px 40px;
+    width: 30%;
+}
+.createImage .left ul{
+    list-style: none;
+}
+.createImage .left li{
+    padding: 10px 0px;
+    border-bottom: 1px solid rgb(173, 173, 173);
+}
+.createImage span{
+    color: #0a88d3;
+}
+.createImage .rigth{
+    width: 68%;
+    border-left: 1px solid rgb(180, 176, 176);
+    padding: 20px 20%;
+}
+.createImage .rigth h2{
+    border-bottom: 2px solid rgb(156, 152, 152);
+    text-align: center;
+    padding: 0px 0px 30px ;
+}
+.createImage .rigth label{
+    margin-top: 10px;
+    padding: 5px 0px;
+}
+.createImage .rigth textarea{
+    border: 1px solid rgb(176, 173, 173);
+    width: 100%;
+    height: 150px;
+    outline: none;
+    padding: 10px;
+
+}
+.createImage .rigth .check_img{
+    text-align: center;
+    height: 300px;
+    max-width: 100%;
+    border: 1px solid rgb(232, 229, 229);
+}
+.createImage .check_img img{
+    object-fit: cover;
+    max-width: 98%;
+    max-height: 100%;
+    
+}
+.createImage .rigth .btn1{
+    margin: 20px 0px;
+    display: flex;
+    justify-content: center;
+}
+.createImage .rigth button{
+    width: 150px;
+    padding: 10px 0px;
+    border: transparent;
+    border-radius: 30px;
+    background-color: rgb(28, 125, 216);
+    color: #fff;
+    font-weight: 600;
+}
+.createImage .btn_fake{
+    background-color: rgb(52, 51, 51);
+    color: #fff;
+    width: 50px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 5px;
+    margin: 5px 0px 10px;
+    border-top: 2px solid #625135;
+    border-left: 2px solid #625135;
+    border-right: 2px solid #959292;
+    border-bottom: 2px solid #959292;
+    cursor: pointer;
+}
+.createImage .btn_fake:active{
+    border-top: 2px solid #959292;
+    border-left: 2px solid #959292;
+    border-right: 2px solid #625135;
+    border-bottom: 2px solid #625135;
+    background-color: rgb(108, 106, 106);
+}

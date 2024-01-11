@@ -1,0 +1,23 @@
+.navbar_homepage{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    border-bottom: 1px solid rgb(227, 222, 222);
+}
+.navbar_homepage button{
+    background-color: rgb(252, 253, 254);
+    padding: 10px 15px;
+    margin-right: 20px;
+    border: none;
+    border-bottom: 1px solid rgb(159, 156, 156);
+    cursor: pointer;
+}
+.navbar_homepage button:hover{
+    background-color: aliceblue;
+}
+.navbar_homepage .nav_rigth{
+    border-radius: 30px;
+    padding: 10px 40px;
+    outline: none;
+    cursor: pointer;
+}

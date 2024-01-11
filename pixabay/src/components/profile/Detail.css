@@ -1,0 +1,157 @@
+/* Detail.css */
+
+.height {
+    width: 90% !important;
+    max-width: none;
+  }
+.height #modal-header{
+    background-color: none !important;
+}
+  .main_modal {
+    display: flex;
+    padding: 30px;
+  }
+  .main_modal .write{
+    padding: 10px;
+  }
+  
+  .modal_left {
+    width: 60% !important;
+    height: 600px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: aliceblue;
+  }
+  
+  .modal_left img {
+    height: 80%;
+    object-fit: contain;
+  }
+  
+  .modal_right {
+    width: 40%;
+    padding: 0px 10px;
+    border-left: 1px solid rgb(179, 181, 182);
+  }
+  
+  .modal_poster .poster {
+    display: flex;
+    gap: 20px;
+    padding: 0px 0px 10px 0px;
+  }
+  
+  .modal_right .modal_poster {
+    padding: 15px 0px;
+    border-bottom: 1px solid rgb(222, 219, 219);
+  }
+  .modal_reviewers .checkLogin{
+    background-color: rgb(225, 221, 221);
+    text-align: center;
+    height: 90px;
+    line-height: 90px;
+    color: rgb(240, 104, 104);
+  }
+  .modal_right .modal_poster img,
+  .modal_right .modal_reviewers img {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  
+  .modal_reviewers input {
+    padding: 5px;
+    outline: none;
+    border: transparent;
+    border-bottom: 1px solid rgb(223, 217, 217);
+    border-left: 1px solid rgb(223, 217, 217);
+    width: 100%;
+  }
+  
+  .modal_reviewers button {
+    margin-top: 10px;
+    width: 80px;
+  }
+  
+  .modal_right .list_comment {
+    /* display: flex; */
+    gap: 20px;
+    overflow: auto;
+    height: 375px;
+  }
+  .list_comment .commenter{
+    display: flex;
+    gap: 20px;
+  }
+  .list_comment .commenter p {
+    padding: 0px;
+  }
+  .list_comment p {
+    padding-left: 60px;
+  }
+  
+  .modal_right .list_comment::-webkit-scrollbar {
+    width: 6px;
+  }
+  
+  .modal_right .list_comment::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  
+  .modal_right .list_comment::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 6px;
+  }
+  
+  .modal_right .list_comment::-webkit-scrollbar-thumb:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  
+  .setting_edit{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .click_edit{
+    position: relative;
+  }
+  .click_edit ul{
+    list-style: none;
+    background-color: rgb(47, 46, 46);
+    position: absolute;
+    color: #fff;
+    top: 25px;
+    left: 20px;
+    padding: 10px 5px 10px 10px;
+  }
+  .click_edit li{
+    border-bottom: 1px solid rgba(255, 255, 255);
+    padding: 5px 40px;
+    cursor: pointer;
+  }
+  .click_edit li:hover{
+    background-color: rgb(120, 118, 118);
+  }
+  .content_moddal form{
+    padding: 0px !important;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  .content_moddal form input{
+    background-color: #f8f6f6;
+    width: 85%;
+    border: none;
+    border-bottom: 1px solid rgb(196, 193, 193);
+  }
+  .content_moddal form button{
+    margin: 0px !important;
+    width: 60px;
+    background-color: rgb(81, 137, 242);
+    border-radius: 10px;
+  }
+  .click_edit .hiden{
+    display: none;
+  }

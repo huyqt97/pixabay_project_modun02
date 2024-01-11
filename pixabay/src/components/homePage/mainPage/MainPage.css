@@ -1,0 +1,81 @@
+.main{
+    column-count: 4;
+    column-gap: 10px;
+    padding: 30px 15px;
+    cursor: pointer;
+    min-height: 1000px;
+}
+.main .cards{
+    width: 340px;
+    break-inside: avoid;
+    position: relative;
+    margin-bottom: 10px;
+}
+.main .cards img{
+    width: 100%;
+    border-radius: 5px;
+}
+.main .cards .hiden{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(82, 80, 80, 0.342);
+    opacity: 0;
+    transition: opacity 0.2s ease;
+    color: rgb(246, 246, 246);
+    font-size: 20px;
+}
+.main .hiden .icon{
+    position: absolute;
+    left: 20px;
+    top: 15px;
+}
+.main .hiden button{
+    border: none !important;
+    background-color: transparent;
+    color: rgb(246, 246, 246);
+    font-size: 22px;
+    padding-right: 15px;
+}
+.main .hiden p {
+    position: absolute;
+    bottom: 5px;
+    left: 20px;
+}
+.main .cards:hover .hiden{
+    opacity: 1;
+}
+.aedit{
+    font-size: 16px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+.aedit:hover{
+    color: rgb(231, 169, 104);
+}
+.hiden ul{
+    background-color: rgb(58, 57, 57);
+    list-style: none;
+    padding: 10px 5px 20px 20px;
+    position: absolute;
+    left: 22px;
+}
+.hiden li{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-bottom: 2px solid rgb(255, 255, 255);
+    padding: 10px 30px;
+    color: #fff;
+}
+.hiden li:hover{
+    background-color: rgb(151, 153, 154);
+}
+.modal_poster .like{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}

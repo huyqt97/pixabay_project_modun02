@@ -1,0 +1,43 @@
+.header{
+    height: 500px;
+    position: relative;
+}
+.header .text{
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    background-color: rgba(71, 69, 69, 0.504);
+    opacity: 1;
+}
+.upfix{
+    position: absolute;
+    top: 40%;
+    left: 23%;
+}
+.text h1{
+    font-size: 34px;
+    margin-bottom: 20px;
+}
+.header img{
+    image-rendering: pixelated;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.header .note{
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+}
+.header .book{
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+}
+.header span{
+    color: #eeebeb;
+}

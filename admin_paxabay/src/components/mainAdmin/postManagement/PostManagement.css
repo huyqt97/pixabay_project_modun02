@@ -1,0 +1,78 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.postManagement h2{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.postManagement{
+    margin: auto;
+    width: 70%;
+    padding: 30px 0px;
+    background-color: rgb(200, 201, 201);
+    min-height: 700px;
+}
+.postManagement table{
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse
+}
+table,tr ,th ,td{
+    border: 1px solid #fff;
+    padding: 10px 0px;
+}
+.postManagement th{
+    border-bottom: 2px solid #fff;
+}
+.postManagement img{
+    height: 200px;
+}
+.postManagement button{
+    padding: 10px 15px;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    cursor: pointer;
+}
+.postManagement .btn_lock{
+    background-color: rgb(204, 81, 81);
+}
+.postManagement .btn_lock:hover{
+    background-color: rgb(208, 137, 137);
+}
+.postManagement .btn_open{
+    background-color: green;
+}
+.postManagement .btn_open:hover{
+    background-color: rgb(91, 189, 91);
+}
+.postManagement table {
+    margin: auto;
+    width: 100%;
+}
+.postManagement table .th1{
+    width: 5%;
+}
+.postManagement table .th2{
+    width: 30%;
+    height: 200px;
+}
+.postManagement table .th2 img{
+    max-width: 90%;
+    max-height: 100%;
+    object-fit: contain;
+}
+.postManagement table .th3{
+    width: 20%;
+}
+.postManagement table .th4{
+    width: 8%;
+}
+.postManagement table .th5{
+    width: 8%;
+}
+.postManagement table .th6{
+    width: 20%;
+}

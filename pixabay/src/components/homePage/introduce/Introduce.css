@@ -1,0 +1,25 @@
+.introduce{
+    border-top: 1px solid rgb(146, 144, 144);
+    margin-top: 80px;
+    padding: 80px 50px;
+    display: flex;
+}
+.introduce i{
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    background-color: rgba(213, 245, 213, 0.926);
+    color: green;
+}
+.introduce ul{
+    list-style: none;
+    margin-left: 20px;
+}
+.li2{
+    padding: 20px 0px;
+}
+ul b{
+    color: rgb(92, 144, 92);
+}

@@ -1,0 +1,52 @@
+.navfunctions{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 30px;
+    border-bottom: 1px solid rgb(162, 159, 159);
+    background-color: #fff;
+}
+.navfunctions .left{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.navfunctions form{
+    width: 400px;
+    background-color: rgb(233, 233, 233);
+    padding: 0px;
+}
+.navfunctions form input{
+    width: 90%;
+    padding: 5px;
+    outline: none;
+    border: none;
+    background-color: transparent;
+}
+.navfunctions form button{
+    width: 40px;
+    margin: 0px;
+    background-color: transparent;
+    padding: 5px 10px;
+    border: none;
+    color: rgb(150, 147, 147);
+}
+.navfunctions .rigth{
+    display: flex;
+    align-items: center;
+}
+.navfunctions .rigth img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%; 
+    line-height: 50px;
+    object-fit: cover;
+    margin: 0px 30px;
+}
+.navfunctions .rigth button{
+    width: 120px;
+    padding: 8px 0px;
+    border-radius: 30px;
+    border: transparent;
+    background-color: #02be6e;
+    color: #fff;
+}
